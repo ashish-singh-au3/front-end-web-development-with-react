@@ -50,7 +50,7 @@ class DishDetail extends Component {
       );
     });
     return (
-      <div className="col-12 col-md-5 m-1">
+      <div className="col-12 col-md-5 m-2">
         <h4> Comments </h4>
         <ul className="list-unstyled">{commentsToBeDisplayed}</ul>
       </div>
