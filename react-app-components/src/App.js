@@ -5,6 +5,7 @@ import Menu from "./components/MenuComponent";
 import { Navbar, NavbarBrand } from "reactstrap";
 import { DISHES } from "./shared/dishes";
 import Main from "./components/MainComponent";
+import { BrowserRouter } from "react-router-dom";
 
 export default class App extends Component {
   /*   constructor(props) {
@@ -16,11 +17,14 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <div className="">
-          <Main />
+      <BrowserRouter>
+        {" "}
+        <div>
+          <div className="">
+            <Main />
+          </div>
         </div>
-      </div>
+      </BrowserRouter>
     );
   }
 }
